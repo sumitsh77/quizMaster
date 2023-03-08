@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cutive+Mono&family=Rozha+One&family=Tenor+Sans&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./css/output.css">
+  <link rel="stylesheet" href="./input.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <section id="navbar">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+            </svg>
+          </label>
+          <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-center">
+        <a href="../index.html" class="btn btn-ghost font-bold normal-case text-xl">SRV</a>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <!-- the main carousel section -->
+  <section id="carousel">
+    <h1 class="text-center text-xl font-bold">Please Select your Quiz Subject</h1>
+    <br>
+    <div class="carousel w-full">
+      <div id="item1" class="carousel-item w-full">
+        <div class="flex flex-col mx-auto  px-6 space-y-6 lg:space-y-0 lg:space-x-5 lg:flex-row">
+          <!-- card-1 -->
+          <div class="flex flex-col max-w-sm  shadow-2xl rounded-2xl p-10 space-y-4  text-center bg-blue-600">
+            <a href="./English/QUIZES/main.html">
+              <div class="bg-white w-20 mx-auto  rounded-full p-4">
+                <i class="fa-regular fa-lightbulb  fa-3x"></i>
+              </div>
+              <h1 class="text-white font-bold text-xl">English</h1>
+
+            </a>
+          </div>
+          <!-- card-2 -->
+          <div class="flex flex-col max-w-sm  shadow-2xl rounded-2xl p-10 space-y-4  text-center bg-green-600">
+            <a href="./Sanskrit/QUIZES/main.html">
+              <div class="bg-white w-20 mx-auto  rounded-full p-4">
+                <i class="fa-solid fa-om fa-3x"></i>
+              </div>
+              <h1 class="text-white font-bold text-xl">Sanskrit</h1>
+
+            </a>
+          </div>
+          <!-- card-3 -->
+          <div class="flex flex-col max-w-sm  shadow-2xl rounded-2xl p-10 space-y-4  text-center bg-red-600">
+            <a href="./Science/QUIZES/main.html">
+              <div class="bg-white w-20 mx-auto  rounded-full p-4">
+                <i class="fa-solid fa-rocket fa-3x"></i>
+              </div>
+              <h1 class="text-white font-bold text-xl">Science</h1>
+
+            </a>
+          </div>
+          <!-- card-4 -->
+          <div class="flex flex-col max-w-sm  shadow-2xl rounded-2xl p-10 space-y-4  text-center bg-yellow-500">
+            <a href="./Math/QUIZES/main.html">
+              <div class="bg-white w-20 mx-auto  rounded-full p-4">
+                <i class="fa-solid fa-book fa-3x"></i>
+              </div>
+              <h1 class="text-white font-bold text-xl">Math</h1>
+
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="item2" class="carousel-item w-full">
+        <div class="flex flex-col mx-auto  px-6 space-y-6 lg:space-y-0 lg:space-x-5 lg:flex-row">
+          <!-- card-1 -->
+          <div class="flex flex-col max-w-sm  shadow-2xl rounded-2xl p-10 space-y-4  text-center bg-blue-600">
+            <a href="./Hindi/QUIZES/main.html">
+              <div class="bg-white w-20 mx-auto  rounded-full p-4">
+                <i class="fa-regular fa-lightbulb  fa-3x"></i>
+              </div>
+              <h1 class="text-white font-bold text-xl">Hindi</h1>
+
+            </a>
+          </div>
+          <!-- card-2 -->
+          <div class="flex flex-col max-w-sm  shadow-2xl rounded-2xl p-10 space-y-4  text-center bg-green-600">
+            <a href="./Social Studies/QUIZES/main.html">
+              <div class="bg-white w-20 mx-auto  rounded-full p-4">
+                <i class="fa-solid fa-map-pin fa-3x"></i>
+              </div>
+              <h1 class="text-white font-bold text-xl">Social Studies</h1>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-center w-full py-2 gap-2">
+      <a href="#item1" class="btn btn-xs">1</a>
+      <a href="#item2" class="btn btn-xs">2</a>
+    </div>
+  </section>
+  </section>
+  <br>
+  <!-- end of the carousel section -->
+
+
+  <!-- About Us  -->
+  <section id="about-us" class="bg-green-600">
+    <div class="flex flex-col  space-y-4 mx-auto text-center  text-white p-20">
+      <h1 class="text-lg lg:text-xl font-mono">Little More About Us</h1>
+      <br>
+      <h1 class="text-3xl lg:text-6xl font-serif">Your Kids is Our Future</h1>
+      <p class="max-w-2xl text-left  lg:mx-auto">Simple is a company specializing in providing financial, marketing and
+        analytical
+        services to
+        other companies
+        and private entrepreneurs to help them improve their businesses. We are able to analyze any activity and provide
+        with the bulk of solutions how to decrease your expense, use hidden opportunities and what spheres are good for
+        investment.</p>
+      <br>
+      <div class="">
+        <button class="btn btn-lg px-20  bg-yellow-400 text-white font-bold rounded-xl ">Become A Memeber</button>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="bg-gray-900 p-10 text-white">
+    <p class="text-center">Copyright &copy; 2023 || All Right Reserved || Created & Maintained By <span
+        class="text-yellow-400 italic">SUMIT
+        SHARMA</span></p>
+  </footer>
+</body>
+
+</html>
